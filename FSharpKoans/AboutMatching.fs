@@ -83,7 +83,7 @@ module ``04: Match expressions`` =
 
     [<Test>]
     let ``06 Using an OR-pattern`` () =
-        let f input =
+        let f input = 
             match input with
             | "wut" | "lol" -> "yolo"
             | "sunrise"
