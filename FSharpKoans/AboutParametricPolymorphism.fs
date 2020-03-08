@@ -65,10 +65,10 @@ module ``08: Parametric polymorphism`` =
         let a = false
         let b = 't'
         x |> should be ofType<int>
-        y |> should be ofType<FILL_ME_IN>
-        z |> should be ofType<FILL_ME_IN>
-        a |> should be ofType<FILL_ME_IN>
-        b |> should be ofType<FILL_ME_IN>
+        y |> should be ofType<string>
+        z |> should be ofType<double>
+        a |> should be ofType<bool>
+        b |> should be ofType<char>
 
     [<Test>]
     let ``02 id: the simplest built-in generic function`` () =
